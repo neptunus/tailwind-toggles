@@ -16,8 +16,9 @@ Add the classes `big` or `small` to the toggle for variants.
 
 There's lots to do:
 
-- Disabled state ✔︎
-- Color variants or configuration variables
-- Release as importable plugin package
+- [x] Disabled state ✔︎
+- [ ] Color variants or configuration variables
+- [ ] Release as importable plugin package
+- [ ] More components ?!
 
 See [this demo component](https://github.com/tailwindcss/plugin-examples/blob/master/plugins/simple-buttons/index.js) for some implementation help
