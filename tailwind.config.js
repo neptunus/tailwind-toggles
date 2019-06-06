@@ -36,6 +36,17 @@ module.exports = {
 			'border-radius': '9999px',
 			'content': '"||"',
         },
+        '.toggle[disabled]+label': {
+        	'opacity': '0.6',
+        	'cursor': 'not-allowed',
+			'background-color': 'rgb(230, 230, 230)',
+        },
+        '.toggle:checked[disabled]+label': {
+			'background-color': 'rgb(230, 230, 230)',
+        },
+        '.toggle[disabled]+label::after': {
+			'background-color': 'rgba(255, 255, 255, 0.25)',
+        },
         '.toggle:checked+label': {
 			'background-color': '#84F591',
 			'transition-delay': '70ms',
