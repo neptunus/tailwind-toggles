@@ -19,3 +19,5 @@ There's lots to do:
 - Disabled state ✔︎
 - Color variants or configuration variables
 - Release as importable plugin package
+
+See [this demo component](https://github.com/tailwindcss/plugin-examples/blob/master/plugins/simple-buttons/index.js) for some implementation help
