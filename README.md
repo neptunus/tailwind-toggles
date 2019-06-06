@@ -16,7 +16,7 @@ Add the classes `big` or `small` to the toggle for variants.
 
 There's lots to do:
 
-- [x] Disabled state ✔︎
+- [x] Disabled state
 - [ ] Color variants or configuration variables
 - [ ] Release as importable plugin package
 - [ ] More components ?!
