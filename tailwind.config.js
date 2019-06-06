@@ -13,6 +13,14 @@ module.exports = {
 			'transition': 'background-color 80ms ease',
 			'padding': '0.12rem',
 			'-webkit-mask-image': '-webkit-radial-gradient(white, black)',
+			'background': '#cbd5e0',
+			'display': 'inline-block',
+			'cursor': 'pointer',
+			'height': '1.5rem',
+			'width': '2.5rem',
+			'border-radius': '9999px',
+			'overflow': 'hidden'
+
         },
         '.toggle+label::after': {
 			'font-size': '0.5rem',
@@ -35,8 +43,14 @@ module.exports = {
         '.toggle:checked+label::after': {
 			'transform': 'translate(1rem)',
         },
+        '.toggle.small+label': {
+			'width': '2rem',
+        },
         '.toggle.small:checked+label::after': {
 			'transform': 'translate(0.5rem)',
+        },
+        '.toggle.big+label': {
+			'width': '3rem',
         },
         '.toggle.big:checked+label::after': {
 			'transform': 'translate(1.5rem)',
